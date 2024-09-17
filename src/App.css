@@ -1,0 +1,56 @@
+.app-background {
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: background-image 1s ease-in-out;
+}
+
+/* Custom card styling */
+.custom-card {
+  border-radius: 15px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  background-color: rgba(255, 255, 255, 0.9); /* Slight transparency */
+}
+
+/* Card header styling */
+.card-header {
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  color: #0072ff;
+  margin-bottom: 20px;
+}
+
+/* Custom segment styling */
+.custom-segment {
+  border-radius: 15px;
+  background-color: #f7f7f7;
+  box-shadow: none;
+}
+
+/* Custom input styling */
+.custom-input {
+  border-radius: 10px !important;
+  border: 1px solid #0072ff !important;
+  transition: all 0.3s ease-in-out;
+}
+
+.custom-input:hover {
+  box-shadow: 0 4px 12px rgba(0, 114, 255, 0.2);
+}
+
+/* Post button styling */
+.custom-button {
+  background-color: #0072ff !important;
+  color: white !important;
+  border-radius: 50px !important;
+  font-family: 'Poppins', sans-serif;
+  transition: all 0.3s ease-in-out;
+}
+
+.custom-button:hover {
+  background-color: #005ecb !important;
+  box-shadow: 0 4px 12px rgba(0, 94, 203, 0.3);
+}
